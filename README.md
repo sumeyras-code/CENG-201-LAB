@@ -1,25 +1,19 @@
-# Week 2 Lab Assignment — Singly Linked List
+# Lab 3: Doubly Linked List
 
-This folder contains the completed solutions for both exercises.
+**Student:** Sümeyra Şanlı  
+**Student ID:** 220446023
 
-## Exercise 1
+This project implements a simple music player playlist using a doubly linked list in Java.
 
-Finds the middle node of a singly linked list. For an even-sized list, the second middle node is returned.
+## Files
 
-```bash
-cd Exercise1
-javac Node.java SinglyLinkedList.java MiddleNodeDemo.java
-java MiddleNodeDemo
-```
+- `SongNode.java`: Represents a song node.
+- `MusicPlaylist.java`: Implements the doubly linked list operations.
+- `MusicPlayerDemo.java`: Tests the playlist implementation.
 
-## Exercise 2
-
-Deletes the middle node of a singly linked list. For an even-sized list, the second middle node is deleted. A one-node list becomes empty.
+## Compile and Run
 
 ```bash
-cd Exercise2
-javac Node.java SinglyLinkedList.java DeleteMiddleDemo.java
-java DeleteMiddleDemo
+javac SongNode.java MusicPlaylist.java MusicPlayerDemo.java
+java MusicPlayerDemo
 ```
-
-Student information has been added to every Java file header.
